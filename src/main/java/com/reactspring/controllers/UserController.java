@@ -24,11 +24,11 @@ public class UserController {
         this.userRepository = userRepository;
     }
 
-    @GetMapping("/")
-    public String index() {
+    // @GetMapping("/")
+    // public String index() {
 
-        return "index";
-    }
+    // return "index";
+    // }
 
     @GetMapping("/user/all")
     public ResponseEntity<List<User>> getUsers() {
